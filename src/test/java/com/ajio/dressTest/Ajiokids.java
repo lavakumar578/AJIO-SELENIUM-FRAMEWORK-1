@@ -32,7 +32,7 @@ public class Ajiokids {
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//a[@title='KIDS']")).click();	
 	    JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].scrollIntoView()",driver.findElement(By.xpath("//img[@src='https://assets.ajio.com/cms/AJIO/WEB/15042022-D-KHP-shopbyproduct-header.jpg']")));
+		js.executeScript("arguments[0].scrollIntoView()",driver.findElement(By.xpath("//a[@href='/s/15-16-years-4075-99651']")));
 		driver.findElement(By.xpath("//a[@href='/s/starting-at-rs-199-4663-75761']")).click();
 		WebElement ele = driver.findElement(By.xpath("//select"));
 		Select s=new Select(ele);

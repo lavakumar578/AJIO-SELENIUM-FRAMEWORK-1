@@ -20,6 +20,7 @@ public class Ajiokids {
  * AJIO KIDS
  * @param args
  * @throws InterruptedException
+ * created by smitha
  */
 	public static void main(String[] args) throws InterruptedException {
 		ChromeOptions opt= new ChromeOptions();
